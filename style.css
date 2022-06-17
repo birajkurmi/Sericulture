@@ -1,0 +1,389 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background-image: url("background.jpg");
+	background-repeat:none;
+	background-size: 100%;
+	background-attachment:fixed;
+}
+
+.parent
+{
+	width: 1000px;
+	margin: 0 auto;
+	background-color:#F2F2F2;
+	height:auto;
+	overflow:hidden;
+	font-family: helvetica;
+	padding:25px;
+}
+
+.header
+{
+	width: 100%;
+	/*padding: 4px;*/
+	/*background-color: #FD9A33;*/
+	background-color: #E52102;
+	border-radius: 5px;
+}
+
+.header ul li
+{
+	  display: inline-block;
+		margin-right: 10px;
+		padding: 6px;
+		box-sizing: border-box;
+		position: relative;
+		font-family: arial;
+		box-sizing: border-box;
+		/*background-color: black;*/
+}
+
+.header ul li:hover
+{
+	/*border-bottom: 4px solid #4CAF50;*/
+	background-color: #989494;
+}
+
+.header ul li a
+{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+#about ul
+{
+	position: absolute;
+	display: block;
+	left: 0px;
+	top: 40px;
+	padding: 0px;
+	min-width: 180px;
+	background-color: #FFFFFF;
+	border-radius: 0px;
+	display: none;
+	z-index: 9999;
+}
+
+#about ul li
+{
+	left: 0px;
+	padding: 15px 5px;
+	border: 1px solid #717171;
+	width: 100%;
+	cursor: pointer;
+}
+
+#about:hover .aboutmenu
+{
+	display: block;
+}
+
+#about li a
+{
+	color:#615D5E;
+	text-decoration: none;
+	font-size: 14px;
+
+}
+
+#about li:hover
+{
+	background-color:#EBF0F3;
+}
+
+.singleslide
+{
+	position: relative;
+	width: 3600px;
+	font-size: 0px;
+	animation: 30s slideimg infinite;
+}
+
+.slide-container
+{
+	width: 600px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.singleslide img
+{
+	width: 600px;
+	height: 300px;
+	display:inline-block;
+}
+
+@keyframes slideimg
+{
+	0%
+	{
+		left: 0px;
+	}
+	13.33%
+	{
+		left: 0px;
+	}
+	16.67%
+	{
+		left: -600px;
+	}
+	30%
+	{
+		left: -600px;
+	}
+	33.33%
+	{
+		left: -1200px;
+	}
+	46.66%
+	{
+		left: -1200px;
+	}
+	50%
+	{
+		left: -1800px;
+	}
+	63.33%
+	{
+		left: -1800px;
+	}
+	66.66%
+	{
+		left: -2400px;
+	}
+	80%
+	{
+		left: -2400px;
+	}
+	83.33%
+	{
+		left: -3000px;
+	}
+	96.66%
+	{
+		left: -3000px;
+	}
+	100%
+	{
+		left: 0px;
+	}
+
+}
+
+.parent p
+{
+	text-align: justify;
+	line-height: 21px;
+}
+
+h1,h2,h3
+{
+	color:#0A8E08;
+}
+
+.content img
+{
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+}
+
+center
+{
+	margin: 10px;
+	margin-top: 40px;
+}
+
+center a
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #EE3739;
+}
+
+.introdetail, .Evolution, .typesof, .gallery-container, .history
+{
+	margin-top: 40px;
+	overflow:hidden;
+}
+
+.introdetail h2,.Evolution h2, .typesof h2
+{
+	color: #00AEEF;
+}
+
+.introdetail hr, .Evolution hr, .typesof hr
+{
+	width: 100%;
+	height: 4px;
+	background-color: #00AEEF;
+}
+
+.intropara1
+{
+	/*margin-right: 334px;*/
+	float: left;
+	width: 500px;
+}
+
+.introimg1
+{
+	float: right;
+	width: 45	0px;
+	height: 250px;
+}
+
+#lifecycle
+{
+	display: block;
+	margin: 0px auto;
+	margin-top: 40px;
+}
+
+.intro1
+{
+	overflow: hidden;
+}
+
+.evolu1
+{
+	margin-top: 40px;
+}
+
+.Mulberry_silk
+{
+	width: 100%;
+	background-color: #00AEEF;
+	font-size: 22px;
+	color: white;
+	border-radius: 15px;
+	padding: 2px;
+	text-align: center;
+	margin-top:  16px;
+
+}
+
+.mulberrycontent p
+{
+	float: left;
+	width: 630px;
+}
+
+.mulberrycontent .typesimg1
+{
+	float: right;
+	margin-top:16px;
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+}
+
+.mulberrycontent .typesimage2
+{
+	float: left;
+	width: 600px;
+	height: 280px;
+	display: inline-block;
+
+}
+
+.mulberrycontent .typesimage3
+{
+    width: 80%;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	display: block;
+}
+
+.mulberrycontent .typesimg4
+{
+	margin-top: 16px;
+	width: 300px;
+	float: right;
+}
+
+.mulberrycontent .typesimage5
+{
+	float: left;
+	margin-top: 50px;
+}
+
+.nonmulberryp
+{
+	float: right;
+	padding-left: 20px;
+}
+
+.TasarSilk
+{
+	overflow:hidden;
+	margin-bottom: 20px;
+}
+
+.Erisilk
+{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.typesimg6
+{
+ float: right;
+}
+
+.typesimage7
+{
+	float: left;
+}
+
+.fagara p
+{
+	clear: left;
+}
+
+.typesimg8
+{
+	clear:left;
+}
+
+.typesimage9
+{
+	clear: left;
+}
+
+.fagara img
+{
+	width: 100%;
+	display:block;
+	margin:0px auto;
+}
+
+.typesimg9
+{
+	float: left;
+}
+
+.typesimage10
+{
+	float: left;
+}
+
+.singleimg
+{
+	float: left;
+	margin: 6px;
+}
+
+.singleimg p
+{
+	text-align: center;
+	color: blue;
+	font-size: 18px;
+	padding: 4px;
+	margin: 0px;
+}

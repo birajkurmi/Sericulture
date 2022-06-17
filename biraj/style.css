@@ -1,0 +1,23 @@
+.parent
+{
+	margin-left:150px;
+	margin-right:150px;
+	background-color:#CDFBCC;
+	height:auto;
+	overflow:hidden;
+	font-family:Trebuchet MS;
+	padding:25px;
+}
+h1,h2,h3
+{
+	color:#0A8E08;
+}
+.slide
+{
+	
+	margin-left:200px;
+	margin-right:200px;
+	background-color:#CF0;
+	height:250px;
+	
+}
